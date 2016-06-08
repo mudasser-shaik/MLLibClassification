@@ -1,5 +1,5 @@
 This is a Spark WordCount Example
-Check this out how awesome Spark is.
+Spark MachineLearning Classifictaion model used to address the StumpleUpon Data Challenge
 
 https://www.kaggle.com/c/stumbleupon/data?train.tsv
 
