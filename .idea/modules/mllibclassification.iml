@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module external.linked.project.id="mllibclassification" external.linked.project.path="$MODULE_DIR$/../.." external.root.project.path="$MODULE_DIR$/../.." external.system.id="SBT" type="JAVA_MODULE" version="4">
-  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_7" inherit-compiler-output="false">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8" inherit-compiler-output="false">
     <output url="file://$MODULE_DIR$/../../target/scala-2.11/classes" />
     <output-test url="file://$MODULE_DIR$/../../target/scala-2.11/test-classes" />
     <exclude-output />
@@ -24,6 +24,8 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="SBT: org.scala-lang:scala-library:2.11.8:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.twitter4j:twitter4j-stream:4.0.4:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.twitter4j:twitter4j-core:4.0.4:jar" level="project" />
     <orderEntry type="library" name="SBT: antlr:antlr:2.7.7:jar" level="project" />
     <orderEntry type="library" name="SBT: aopalliance:aopalliance:1.0:jar" level="project" />
     <orderEntry type="library" name="SBT: asm:asm:3.2:jar" level="project" />
@@ -227,5 +229,6 @@
         </SOURCES>
       </library>
     </orderEntry>
+    <orderEntry type="library" name="SBT: org.apache.spark:spark-streaming-twitter_2.11:1.6.0:jar" level="project" />
   </component>
 </module>

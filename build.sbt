@@ -11,5 +11,6 @@ libraryDependencies ++= Seq(
   "com.databricks" %% "spark-csv" % "1.4.0",
   "org.apache.spark" %% "spark-hive" % "1.6.0",
   "org.apache.spark" %% "spark-streaming" % "1.6.0",
-  "org.apache.spark" %% "spark-streaming-kafka" % "1.6.0"
+  "org.apache.spark" %% "spark-streaming-kafka" % "1.6.0",
+  "org.apache.spark" % "spark-streaming-twitter_2.11" % "1.6.0"
 )

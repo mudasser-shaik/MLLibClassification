@@ -4,8 +4,8 @@
 		module="mllibclassification-build"
 		revision="0.1-SNAPSHOT"
 		status="integration"
-		publication="20160601123306"
-		e:scalaVersion="2.10" e:sbtVersion="0.13"
+		publication="20160906185051"
+		e:sbtVersion="0.13" e:scalaVersion="2.10"
 	>
 		<description>
 		mllibclassification-build
